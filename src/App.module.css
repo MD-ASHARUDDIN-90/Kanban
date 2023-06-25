@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  /* height: 60vh; */
+}
+
+.foot {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 5vh;
+  /* border: 1px solid; */
+}

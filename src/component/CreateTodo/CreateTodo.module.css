@@ -1,0 +1,19 @@
+.create_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_container {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.icon {
+  font-size: 1.5rem;
+}
+
+.input {
+  height: 1.5rem;
+}

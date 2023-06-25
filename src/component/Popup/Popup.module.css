@@ -1,0 +1,11 @@
+.container {
+  padding: 1rem;
+}
+
+.sub_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10vh;
+  /* border: 1px solid; */
+}

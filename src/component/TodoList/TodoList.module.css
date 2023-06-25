@@ -1,0 +1,39 @@
+.todo_container {
+  flex: 1;
+  /* border-right: 1px solid rgb(162, 165, 159); */
+  padding-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.task_container {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  word-wrap: break-word;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.task_container p {
+  flex: 1;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.task_container input {
+  /* flex: 1; */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1rem;
+}
